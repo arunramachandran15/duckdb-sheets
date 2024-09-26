@@ -1,7 +1,7 @@
 ### Problem statement : 
 
 - Implement a google sheet like frontend interface using Swelete
-- Send real time updates in the sheets to using a data loader to DuckDB 
+- Send real time updates in the sheets to DuckDB 
 - Receive the real time updates using a web server and socket implementation
 - Another user using the sheets should be able to see the updates in realtime and also anybody using the DuckDB for their processing with real time updates.
 - To use docker and Kubernetes, implement DuckDB as statefulset in K8s (For db file persistent storage)
