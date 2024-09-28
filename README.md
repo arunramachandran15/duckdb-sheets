@@ -7,4 +7,9 @@
 - To use docker and Kubernetes, implement DuckDB as statefulset in K8s (For db file persistent storage)
 - To implement a singleton db manager for duckdb access.
 
+**Design Document :
+
+<img width="794" alt="image" src="https://github.com/user-attachments/assets/604c44dd-bea9-4068-b3b1-035b540b4118">
+
+
 
