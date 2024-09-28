@@ -9,7 +9,8 @@
 
 **Design Document :
 
-<img width="794" alt="image" src="https://github.com/user-attachments/assets/604c44dd-bea9-4068-b3b1-035b540b4118">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/8b79fea0-2650-4dcb-b889-33bf410629a7">
+
 
 
 
