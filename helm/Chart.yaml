@@ -1,0 +1,4 @@
+apiVersion: v2
+name: duckdb-sheets-chart
+description: A Helm chart for deploying DuckDBManager, Redis, SvelteApp, and Node.js Socket Server
+version: 0.1.0

@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis_service
+    ports:
+      - "6379:6379"  
+    volumes:
+      - redis-data:/data
+    restart: always
+
+  duckdb_manager:
+    build: .
+    container_name: duckdb_manager_service
+    volumes:
+      - ./db_files:/app  
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    restart: always
+
+volumes:
+  redis-data:
+    driver: local
